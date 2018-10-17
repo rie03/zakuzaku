@@ -85,6 +85,7 @@ li{
 }
 
 .news_title{
+    margin-top: 10px;
     height: 48px;
     background: url(https://zakuzaku.co.jp/wp-content/themes/zakuzaku/assets/img/news_ttl_sp.png) center 0 no-repeat;
     background-size: auto 48px;
@@ -167,11 +168,26 @@ li{
 }
 
 .index_shopBanner_link{
-    height: 100%;
-    width: 100%;
+    height: 83px;
+    width: 190px;
     position: absolute;
     background: url(https://zakuzaku.co.jp/wp-content/themes/zakuzaku/assets/img/shopsBanner_ttl_pc.png) 0 0 no-repeat;
-    margin: 19% 17%;
+    top: 41%;
+    left: 17%;
+}
+
+.index_shopBanner_link_arrow{
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-top: solid 5px #fff;
+    border-right: solid 5px #fff;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 45%;
+    left: 26%;
+    z-index: 2;
 }
 
 .index_principles{
@@ -191,7 +207,8 @@ li{
     font-size: 20px;
     font-weight: 200;
     text-align: center;
-    line-height: 50px;
+    line-height: 20px;
+    padding: 15px 0;
 }
 
 .index_principles_lead_en{
@@ -199,7 +216,7 @@ li{
     color: #00afe2;
     font-weight: 200;
     text-align: center;
-    line-height: 40px;
+    line-height: 30px;
 }
 
 .index_principles_item{
@@ -355,6 +372,7 @@ li{
     background: url(https://zakuzaku.co.jp/wp-content/themes/zakuzaku/assets/img/h1_3_pc.png) center 0 no-repeat;
     background-size: auto 48px;
     margin-top: 30px;
+    margin-bottom: 5px;
 }
 
 .index_price_items dt{
@@ -518,12 +536,30 @@ li{
 
 .shop_list_link{
     position: absolute;
-    font:30px "Oswald";
-    padding: 0.5em 1em;
-    margin-top: 13%;
+    font:34px "Oswald";
+    padding: 0.5em 1em ;
+    margin-top: 15%;
     margin-left: 15%; 
-    color: #fff;
     background: #000;
+    float: left;
+}
+
+.shop_list_link_arrow{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-top: solid 5px #fff;
+    border-right: solid 5px #fff;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-top: 15px;
+    margin-left: 15px;
+    float: right;
+}
+
+.shop_img a{
+    text-decoration: none;
+    color: #fff;
 }
 
 #footer{
